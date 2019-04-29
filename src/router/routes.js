@@ -28,7 +28,6 @@ const routes = [
             store.dispatch('products/loadItems')
             next()
         }
-
     },
     {
         path: '/product/:id',
